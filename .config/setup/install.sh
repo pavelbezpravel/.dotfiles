@@ -17,5 +17,5 @@ else
 fi;
 
 cfgit checkout
-cfgit config status.showUntrackedFiles no
+cfgit config --local status.showUntrackedFiles no
 
