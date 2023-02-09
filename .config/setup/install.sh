@@ -4,16 +4,17 @@ cfgit() {
     /usr/bin/git --git-dir="$HOME"/.dotfiles/ --work-tree="$HOME" "$@"
 }
 
-install_ohmyzsh() {
+setup_zsh() {
     if [ "$(which zsh)" = 0 ]; then
         sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+        curl -L git.io/antigen > .antigen.zsh
     fi
 }
 
 install() {
     cd "$HOME" || exit
 
-    install_ohmyzsh
+    setup_zsh
 
     git clone --bare https://github.com/pavelbezpravel/.dotfiles.git "$HOME"/.dotfiles
 

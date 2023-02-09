@@ -1,23 +1,24 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
+source "$HOME"/.antigen.zsh
 
-CASE_SENSITIVE="true"
+antigen use oh-my-zsh
 
-plugins=(
-    git
-    rust
-    sudo
-    docker
-    docker-compose
-    extract
-    zsh-autosuggestions
-    zsh-syntax-highlighting
-)
+antigen bundle command-not-found
+antigen bundle docker
+antigen bundle docker-compose
+antigen bundle extract
+antigen bundle git
+antigen bundle rust
+antigen bundle sudo
 
-source $ZSH/oh-my-zsh.sh
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-syntax-highlighting
 
-export LANG=en_US.UTF-8
+antigen theme robbyrussell
+
+antigen apply
 
 alias cfgit="/usr/bin/git --git-dir=\$HOME/.dotfiles/ --work-tree=\$HOME"
 alias ll="ls -lh"
