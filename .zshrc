@@ -11,6 +11,7 @@ plugins=(
     sudo
     docker
     docker-compose
+    extract
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
