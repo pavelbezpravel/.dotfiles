@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-git clone --bare git@github.com:pavelbezpravel/.dotfiles.git "$HOME"/.dotfiles
+git clone --bare https://github.com/pavelbezpravel/.dotfiles.git "$HOME"/.dotfiles
 
 cfgit() {
     /usr/bin/git --git-dir="$HOME"/.dotfiles/ --work-tree="$HOME"
