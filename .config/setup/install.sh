@@ -13,7 +13,7 @@ if [ $? = 0 ]; then
     echo "Checked out dotfiles.";
 else
     echo "Backing up pre-existing dotfiles.";
-    cfgit checkout 2>&1 | grep -E "\s+\." | awk 'print $1' | xargs -I{} mv {} .dotfiles-backup/{}
+    cfgit checkout 2>&1 | grep -E "\s+\." | awk '{print $1}' | xargs -I{} mv {} .dotfiles-backup/{}
 fi;
 
 cfgit checkout
