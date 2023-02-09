@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-cd "$HOME"
+cd "$HOME" || exit
 git clone --bare https://github.com/pavelbezpravel/.dotfiles.git "$HOME"/.dotfiles
 
 cfgit() {
