@@ -7,7 +7,6 @@ cfgit() {
 setup_zsh() {
     if [ "$(which zsh)" = 0 ]; then
         sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-        curl -L git.io/antigen > "$HOME"/antigen.zsh
     fi
 }
 
@@ -16,7 +15,7 @@ install() {
 
     setup_zsh
 
-    git clone --bare https://github.com/pavelbezpravel/.dotfiles.git "$HOME"/.dotfiles
+    git clone --bare --recurse-submodules https://github.com/pavelbezpravel/.dotfiles.git "$HOME"/.dotfiles
 
     if [ "$(cfgit checkout)" = 0 ]; then
         echo "Checked out dotfiles."
