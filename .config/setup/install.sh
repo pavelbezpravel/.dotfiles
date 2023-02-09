@@ -7,7 +7,7 @@ cfgit() {
 setup_zsh() {
     if [ "$(which zsh)" = 0 ]; then
         sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-        curl -L git.io/antigen > "$HOME"/.antigen.zsh
+        curl -L git.io/antigen > "$HOME"/antigen.zsh
     fi
 }
 
