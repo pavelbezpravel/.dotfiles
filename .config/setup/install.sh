@@ -28,8 +28,6 @@ install() {
 
     cfgit checkout
     cfgit config --local status.showUntrackedFiles no
-
-    . "$HOME"/.zshrc
 }
 
 install
