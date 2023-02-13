@@ -1,1 +1,10 @@
 .dotfiles
+
+# global .gitignore
+
+.idea/
+
+build/
+cmake-build-debug/
+cmake-build-release/
+cmake_build/
