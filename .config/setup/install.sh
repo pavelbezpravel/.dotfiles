@@ -10,6 +10,10 @@ setup_zsh() {
     fi
 }
 
+setup_keychron() {
+    sh -c ". ""$HOME""/.config/setup/keychron.sh"
+}
+
 install() {
     cd "$HOME" || exit
 
@@ -27,6 +31,8 @@ install() {
 
     cfgit checkout
     cfgit config --local status.showUntrackedFiles no
+
+    setup_keychron
 }
 
 install
