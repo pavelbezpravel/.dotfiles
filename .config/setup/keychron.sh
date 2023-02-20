@@ -7,7 +7,7 @@ echo "options hid_apple fnmode=0" | sudo tee /etc/modprobe.d/hid_apple.conf
 
 # the "-k all" part is not always needed, but it's better to do that for all kernels anyway
 sudo update-initramfs -u -k all
-sudo systemctl reboot
+echo "reboot required"
 
 # read: https://gist.github.com/andrebrait/961cefe730f4a2c41f57911e6195e444
 # read: https://github.com/kurgol/keychron/blob/master/k6.md
