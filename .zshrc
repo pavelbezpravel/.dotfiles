@@ -2,6 +2,7 @@ source "$HOME"/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 
+antigen bundle bazel
 antigen bundle command-not-found
 antigen bundle docker
 antigen bundle docker-compose
