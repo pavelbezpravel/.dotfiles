@@ -14,10 +14,6 @@ setup_vim() {
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 }
 
-setup_keychron() {
-    sh -c ". ""$HOME""/.config/setup/keychron.sh"
-}
-
 install() {
     cd "$HOME" || exit
 
@@ -36,7 +32,6 @@ install() {
     cfgit checkout
     cfgit config --local status.showUntrackedFiles no
 
-    setup_keychron
     setup_vim
 }
 
