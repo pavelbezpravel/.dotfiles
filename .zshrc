@@ -8,7 +8,7 @@ antigen bundle docker
 antigen bundle docker-compose
 antigen bundle extract
 antigen bundle git
-antigen bundle rust
+#antigen bundle rust
 antigen bundle sudo
 
 antigen bundle zsh-users/zsh-autosuggestions
