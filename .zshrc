@@ -22,3 +22,7 @@ antigen apply
 alias cfgit="/usr/bin/git --git-dir=\$HOME/.dotfiles/ --work-tree=\$HOME"
 alias ll="ls -lh"
 alias la="ls -lAh"
+
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/share/JetBrains/Toolbox/scripts:$PATH"
+fpath+=${ZDOTDIR:-~}/.zsh_functions
