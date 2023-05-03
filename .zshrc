@@ -4,11 +4,14 @@ antigen use oh-my-zsh
 
 antigen bundle bazel
 antigen bundle command-not-found
+antigen bundle dnf
 antigen bundle docker
 antigen bundle docker-compose
 antigen bundle extract
 antigen bundle git
+antigen bundle pass
 #antigen bundle rust
+antigen bundle tmux
 antigen bundle sudo
 
 antigen bundle zsh-users/zsh-autosuggestions
