@@ -12,6 +12,10 @@ setup_vim() {
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 }
 
+setup_font() {
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+}
+
 install() {
     cd "$HOME" || exit
 
@@ -32,6 +36,8 @@ install() {
     cfgit submodule update --init
 
     setup_vim
+
+    setup_font
 }
 
 install
