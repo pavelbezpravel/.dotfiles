@@ -5,9 +5,7 @@ cfgit() {
 }
 
 setup_zsh() {
-    if [ "$(which zsh)" = 0 ]; then
-        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    fi
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 }
 
 setup_vim() {
@@ -31,6 +29,7 @@ install() {
 
     cfgit checkout
     cfgit config --local status.showUntrackedFiles no
+    cfgit submodule update --init
 
     setup_vim
 }
