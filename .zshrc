@@ -33,7 +33,8 @@ marp-cli() {
         --init \
         -v "$(readlink -f "$1" | xargs dirname)":/home/marp/app \
         -e MARP_USER="$(id -u):$(id -g)" \
-        -e LANG="$LANG" marpteam/marp-cli \
+        -e LANG="$LANG" \
+        marpteam/marp-cli \
         "$1" \
         "$2"
 }
