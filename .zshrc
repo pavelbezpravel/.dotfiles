@@ -4,6 +4,9 @@ antigen use oh-my-zsh
 
 antigen bundle bazel
 antigen bundle command-not-found
+antigen bundle copybuffer
+antigen bundle copyfile
+antigen bundle copypath
 antigen bundle dnf
 antigen bundle docker
 antigen bundle docker-compose
