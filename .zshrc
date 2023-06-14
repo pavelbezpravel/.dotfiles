@@ -9,7 +9,6 @@ antigen bundle copyfile
 antigen bundle copypath
 antigen bundle dnf
 antigen bundle docker
-antigen bundle docker-compose
 antigen bundle extract
 antigen bundle git
 antigen bundle pass
