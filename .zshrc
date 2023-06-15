@@ -12,7 +12,7 @@ antigen bundle docker
 antigen bundle extract
 antigen bundle git
 antigen bundle pass
-#antigen bundle rust
+antigen bundle rust
 antigen bundle tmux
 antigen bundle sudo
 
