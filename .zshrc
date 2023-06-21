@@ -37,8 +37,8 @@ marp-cli() {
         -e MARP_USER="$(id -u):$(id -g)" \
         -e LANG="$LANG" \
         marpteam/marp-cli \
-        "$1" \
-        "$2"
+        /home/marp/app/"$(basename "$1")" \
+        "$@"
 }
 
 alias slides="marp-cli" # slides <file.md> --pdf
