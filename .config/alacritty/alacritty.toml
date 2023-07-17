@@ -1,0 +1,49 @@
+live_config_reload = true
+
+[env]
+LANG = "en_US.UTF-8"
+LC_ALL = "en_US.UTF-8"
+TERM = "xterm-256color"
+
+[window]
+decorations = "full"
+dynamic_title = true
+startup_mode = "Windowed"
+title = "Alacritty"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font]
+size = 13.0
+
+[font.offset]
+x = 0
+y = 0
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[cursor.style]
+blinking = "Always"
+shape = "Beam"
+
+[cursor]
+vi_mode_style = "Beam"
+
+[shell]
+args = ["--login"]
+program = "/usr/bin/zsh"
+
+[hints]
+alphabet = "jfkdls;ahgurieowpq"
