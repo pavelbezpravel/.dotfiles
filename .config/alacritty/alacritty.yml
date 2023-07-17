@@ -22,7 +22,7 @@ font:
     style: Bold
 
   italic:
-    family: JetBrains
+    family: JetBrains Mono
     style: Italic
 
   size: 13.0
