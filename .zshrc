@@ -24,9 +24,16 @@ antigen theme robbyrussell
 
 antigen apply
 
-alias cfgit="/usr/bin/git --git-dir=\$HOME/.dotfiles/ --work-tree=\$HOME"
+
 alias ll="ls -lh"
 alias la="ls -lAh"
+
+cfgit() {
+    /usr/bin/git \
+        --git-dir="$HOME"/.dotfiles \
+        --work-tree="$HOME" \
+        "$@"
+}
 
 # https://github.com/marp-team/marp-cli
 marp-cli() {
