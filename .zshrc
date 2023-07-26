@@ -25,9 +25,6 @@ antigen theme robbyrussell
 antigen apply
 
 
-alias ll="ls -lh"
-alias la="ls -lAh"
-
 cfgit() {
     /usr/bin/git \
         --git-dir="$HOME"/.dotfiles \
@@ -49,10 +46,12 @@ marp-cli() {
 }
 
 alias slides="marp-cli" # slides <file.md> --pdf
+alias ll="ls -lh"
+alias la="ls -lAh"
 
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.local/share/JetBrains/Toolbox/scripts:$PATH"
 export EDITOR="/usr/bin/vim"
+
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 fpath+=~/.zfunc
-
