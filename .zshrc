@@ -45,6 +45,10 @@ marp-cli() {
         "$@"
 }
 
+otp() {
+    ykman oath accounts code "$@"
+}
+
 alias slides="marp-cli" # slides <file.md> --pdf
 alias ll="ls -lh"
 alias la="ls -lAh"
