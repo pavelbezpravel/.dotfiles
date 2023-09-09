@@ -20,6 +20,8 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-syntax-highlighting
 
+antigen bundle MichaelAquilina/zsh-you-should-use
+
 antigen theme robbyrussell
 
 antigen apply
