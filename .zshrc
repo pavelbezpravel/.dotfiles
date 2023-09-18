@@ -15,17 +15,14 @@ antigen bundle pass
 antigen bundle rust
 antigen bundle tmux
 antigen bundle sudo
-
+antigen bundle MichaelAquilina/zsh-you-should-use
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-syntax-highlighting
 
-antigen bundle MichaelAquilina/zsh-you-should-use
-
 antigen theme robbyrussell
 
 antigen apply
-
 
 cfgit() {
     /usr/bin/git \
