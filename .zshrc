@@ -11,6 +11,7 @@ antigen bundle dnf
 antigen bundle docker
 antigen bundle extract
 antigen bundle git
+antigen bundle helm
 antigen bundle kubectl
 antigen bundle pass
 antigen bundle rust
