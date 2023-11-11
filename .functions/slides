@@ -1,11 +1,5 @@
-cfgit() {
-    /usr/bin/git \
-        --git-dir="$HOME"/.dotfiles \
-        --work-tree="$HOME" \
-        "$@"
-}
+#!/usr/bin/env zsh
 
-# https://github.com/marp-team/marp-cli
 # slides <file.md> --pdf
 slides() {
     docker run \
@@ -17,8 +11,4 @@ slides() {
         marpteam/marp-cli \
         /home/marp/app/"$(basename "$1")" \
         "$@"
-}
-
-otp() {
-    ykman oath accounts code "$@"
 }
