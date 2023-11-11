@@ -1,30 +1,6 @@
 source "$HOME"/antigen/antigen.zsh
 
-antigen use oh-my-zsh
-
-antigen bundle bazel
-antigen bundle command-not-found
-antigen bundle copybuffer
-antigen bundle copyfile
-antigen bundle copypath
-antigen bundle dnf
-antigen bundle docker
-antigen bundle extract
-antigen bundle git
-antigen bundle helm
-antigen bundle kubectl
-antigen bundle pass
-antigen bundle rust
-antigen bundle tmux
-antigen bundle sudo
-antigen bundle MichaelAquilina/zsh-you-should-use
-antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle zsh-users/zsh-completions
-antigen bundle zsh-users/zsh-syntax-highlighting
-
-antigen theme robbyrussell
-
-antigen apply
+source "$HOME"/.antigenrc
 
 cfgit() {
     /usr/bin/git \
