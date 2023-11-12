@@ -1,6 +1,6 @@
 source "$HOME"/antigen/antigen.zsh
 
-source "$HOME"/.antigenrc
+antigen init "$HOME"/.antigenrc
 source "$HOME"/.aliases
 
 export PATH="$HOME/.local/bin:$PATH"
