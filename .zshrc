@@ -7,7 +7,7 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.local/share/JetBrains/Toolbox/scripts:$PATH"
 export EDITOR="/usr/bin/vim"
 
-fpath=("$HOME/.functions" $fpath)
-fpath=("$HOME/.zcompletions" $fpath)
+fpath=("$HOME/.zsh-functions" $fpath)
+fpath=("$HOME/.zsh-completions" $fpath)
 
-autoload "$HOME"/.functions/*
+autoload "$HOME"/.zsh-functions/*

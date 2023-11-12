@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+
+gen-completions() {
+    wget -O "$HOME"/.zsh-completions/_alacritty https://raw.githubusercontent.com/alacritty/alacritty/master/extra/completions/_alacritty
+    rustup completions zsh cargo > "$HOME"/.zsh-completions/_cargo
+    docker completion zsh > "$HOME"/.zsh-completions/_docker
+    wget -O "$HOME"/.zsh-completions/_eza https://raw.githubusercontent.com/eza-community/eza/main/completions/zsh/_eza
+    wget -O "$HOME"/.zsh-completions/_rg https://raw.githubusercontent.com/BurntSushi/ripgrep/master/complete/_rg
+    rustup completions zsh > "$HOME"/.zsh-completions/_rustup
+}
