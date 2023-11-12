@@ -11,3 +11,5 @@ fpath=("$HOME/.zsh-functions" $fpath)
 fpath=("$HOME/.zsh-completions" $fpath)
 
 autoload "$HOME"/.zsh-functions/*
+
+source "$HOME"/.zsh-completions/setup
