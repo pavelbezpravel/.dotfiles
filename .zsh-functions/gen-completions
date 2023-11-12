@@ -8,4 +8,5 @@ gen-completions() {
     wget -O "$HOME"/.zsh-completions/_rg https://raw.githubusercontent.com/BurntSushi/ripgrep/master/complete/_rg
     rustup completions zsh > "$HOME"/.zsh-completions/_rustup
     kubectl completion zsh > "$HOME"/.zsh-completions/_kubectl
+    helm completion zsh > "$HOME"/.zsh-completions/_helm
 }
