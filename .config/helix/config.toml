@@ -6,3 +6,9 @@ mouse = false
 insert = "bar"
 normal = "block"
 select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.whitespace]
+render = "all"
