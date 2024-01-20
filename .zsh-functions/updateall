@@ -1,0 +1,21 @@
+#!/usr/bin/env zsh
+
+echo "\n> sudo dnf upgrade --refresh -y\n"
+sudo dnf upgrade --refresh -y
+
+echo "\n> flatpak upgrade\n"
+flatpak upgrade
+echo "\n> flatpak update\n"
+flatpak update
+
+echo "\n> omz update\n"
+omz update
+echo "\n> antigen update\n"
+antigen update
+echo "\n> antigen selfupdate\n"
+antigen selfupdate
+
+echo "\n> rustup update\n"
+rustup update
+echo "\n> cargo install-update -a\n"
+cargo install-update -a
