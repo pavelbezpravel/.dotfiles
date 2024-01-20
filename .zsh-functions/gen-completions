@@ -9,4 +9,5 @@ gen-completions() {
     rustup completions zsh > "$HOME"/.zsh-completions/_rustup
     kubectl completion zsh > "$HOME"/.zsh-completions/_kubectl
     helm completion zsh > "$HOME"/.zsh-completions/_helm
+    pip3 completion --zsh > "$HOME"/.zsh-completions/_pip3
 }
