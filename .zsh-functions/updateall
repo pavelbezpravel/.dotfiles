@@ -3,10 +3,10 @@
 echo "\n> sudo dnf upgrade --refresh -y\n"
 sudo dnf upgrade --refresh -y
 
-echo "\n> flatpak upgrade\n"
-flatpak upgrade
-echo "\n> flatpak update\n"
-flatpak update
+echo "\n> flatpak upgrade -u -y\n"
+flatpak upgrade -u -y
+echo "\n> flatpak update -u -y\n"
+flatpak update -u -y
 
 echo "\n> omz update\n"
 omz update
