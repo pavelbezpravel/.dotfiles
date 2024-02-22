@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 cfgit() {
-    /usr/bin/git --git-dir="$HOME"/.dotfiles/ --work-tree="$HOME" "$@"
+    git --git-dir="$HOME"/.dotfiles/ --work-tree="$HOME" "$@"
 }
 
 setup_zsh() {
@@ -13,7 +13,11 @@ setup_vim() {
 }
 
 setup_font() {
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+}
+
+gen_completions() {
+    bash -c "$HOME/.zsh-functions/gen-completions"
 }
 
 install() {
@@ -35,9 +39,8 @@ install() {
     cfgit config --local status.showUntrackedFiles no
     cfgit submodule update --init
 
-    setup_vim
-
     setup_font
+    gen_completions
 }
 
 install

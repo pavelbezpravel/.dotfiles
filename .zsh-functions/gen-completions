@@ -1,6 +1,7 @@
 #!/usr/bin/env zsh
 
 gen-completions() {
+    mkdir -p "$HOME"/.zsh-completions
     wget -O "$HOME"/.zsh-completions/_alacritty https://raw.githubusercontent.com/alacritty/alacritty/master/extra/completions/_alacritty
     rustup completions zsh cargo > "$HOME"/.zsh-completions/_cargo
     docker completion zsh > "$HOME"/.zsh-completions/_docker
