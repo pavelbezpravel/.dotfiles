@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 cfgit() {
     git --git-dir="$HOME"/.dotfiles/ --work-tree="$HOME" "$@"
@@ -17,7 +17,8 @@ setup_font() {
 }
 
 gen_completions() {
-    bash -c "$HOME/.zsh-functions/gen-completions"
+   source "$HOME/.zsh-functions/gen-completions"
+   gen-completions
 }
 
 install() {
