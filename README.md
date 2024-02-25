@@ -9,11 +9,12 @@ It is a "bare" git repo at `"$HOME"/.dotfiles`.
 
 - git  
 - curl  
+- wget  
 
 ## Basic Installation
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/pavelbezpravel/.dotfiles/main/.config/setup/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/pavelbezpravel/.dotfiles/main/.config/setup/install.sh)"
 ```
 
 ## Usage
