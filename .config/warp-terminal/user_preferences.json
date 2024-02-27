@@ -1,0 +1,27 @@
+{
+  "prefs": {
+    "ShowJumpToBottomOfBlockButton": "true",
+    "EnforceMinimumContrast": "\"Never\"",
+    "HonorPS1": "true",
+    "PreferLowPowerGPU": "false",
+    "ChangelogVersions": "{\"v0.2024.02.20.08.01.stable_01\":true,\"v0.2024.02.20.08.01.stable_02\":true}",
+    "Theme": "\"CyberWave\"",
+    "WorkflowsBoxOpen": "true",
+    "AliasExpansionBannerSeen": "true",
+    "Shortcuts": "true",
+    "LineHeightRatio": "1.3",
+    "WelcomeTipsFeaturesUsed": "[{\"Action\":\"CommandSearch\"},{\"Action\":\"ThemePicker\"},{\"Action\":\"CommandPalette\"},{\"Hint\":\"BlockAction\"},{\"Action\":\"OpenWarpDrive\"},{\"Action\":\"WarpAI\"},{\"Action\":\"SplitPane\"},{\"Hint\":\"BlockSelect\"},{\"Hint\":\"CreateBlock\"},{\"Action\":\"AiCommandSearch\"}]",
+    "OpenWindowsAtCustomSize": "false",
+    "SystemTheme": "false",
+    "AutosuggestionAcceptedCount": "2",
+    "HasAutoOpenedWelcomeFolder": "true",
+    "Spacing": "\"Normal\"",
+    "WelcomeTipsCompleted": "true",
+    "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":4,\"next_refresh_time\":\"2024-02-23T16:05:39.139231Z\"}",
+    "HasDismissedWarpDriveWelcome": "true",
+    "FontName": "\"JetBrains Mono\"",
+    "FontSize": "18.0",
+    "ExperimentId": "48159d16-c845-42cf-b413-f5a77699d743",
+    "ReceivedReferralTheme": "\"Inactive\""
+  }
+}
