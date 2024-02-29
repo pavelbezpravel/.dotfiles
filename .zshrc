@@ -4,6 +4,7 @@ antigen init "$HOME"/.antigenrc
 source "$HOME"/.aliases
 
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$PATH:/usr/local/go/bin"
 export PATH="$HOME/.local/share/JetBrains/Toolbox/scripts:$PATH"
 export EDITOR="hx"
 
