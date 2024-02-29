@@ -10,11 +10,14 @@ antigen bundle dnf
 antigen bundle docker
 antigen bundle extract
 antigen bundle git
+antigen bundle golang
 antigen bundle helm
+antigen bundle httpie
 antigen bundle kubectl
 antigen bundle pass
 antigen bundle pip
 antigen bundle python
+antigen bundle ripgrep
 antigen bundle rust
 antigen bundle safe-paste
 antigen bundle sudo
