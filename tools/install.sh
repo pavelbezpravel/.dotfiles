@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 setup_zsh() {
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 }
