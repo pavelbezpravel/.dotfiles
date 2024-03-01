@@ -2,27 +2,17 @@
 
 ## Synopsis
 
-Repo contains my personal dotfiles from `"$HOME"` directory.  
-It is a "bare" git repo at `"$HOME"/.dotfiles`.  
+Repo contains my personal dotfiles from `"$HOME"` directory.
 
 ## Requirements
 
-- git  
-- curl  
-- wget  
+- git
+- curl
+- wget
+- stow
 
 ## Basic Installation
 
-```sh
+```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/pavelbezpravel/.dotfiles/main/.config/setup/install.sh)"
-```
-
-## Usage
-
-You can easily manage dotfiles via `cfgit` alias:
-
-```sh
-cfgit add .my-awesome-dotfile
-cfgit commit -m "upload dotfile"
-cfgit push origin main
 ```
