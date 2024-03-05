@@ -9,6 +9,7 @@ antigen bundle copypath
 antigen bundle dnf
 antigen bundle docker
 antigen bundle extract
+antigen bundle eza
 antigen bundle git
 antigen bundle golang
 antigen bundle helm
