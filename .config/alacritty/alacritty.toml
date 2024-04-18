@@ -8,7 +8,7 @@ TERM = "xterm-256color"
 [window]
 decorations = "None"
 dynamic_title = true
-startup_mode = "Windowed"
+startup_mode = "Maximized"
 title = "Alacritty"
 
 [font.normal]
