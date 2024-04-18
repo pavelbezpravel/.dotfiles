@@ -12,15 +12,15 @@ startup_mode = "Windowed"
 title = "Alacritty"
 
 [font.normal]
-family = "JetBrains Mono"
+family = "JetBrains MonoNerdFont"
 style = "Regular"
 
 [font.bold]
-family = "JetBrains Mono"
+family = "JetBrains MonoNerdFont"
 style = "Bold"
 
 [font.italic]
-family = "JetBrains Mono"
+family = "JetBrains MonoNerdFont"
 style = "Italic"
 
 [font]
