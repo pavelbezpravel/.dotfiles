@@ -1,5 +1,6 @@
 antigen use oh-my-zsh
 
+antigen bundle ansible
 antigen bundle bazel
 antigen bundle command-not-found
 antigen bundle compleat
@@ -9,6 +10,7 @@ antigen bundle copypath
 antigen bundle dnf
 antigen bundle docker
 antigen bundle docker-compose
+antigen bundle encode64
 antigen bundle extract
 antigen bundle eza
 antigen bundle git
