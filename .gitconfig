@@ -1,0 +1,21 @@
+[commit]
+	gpgsign = true
+[core]
+	editor = hx
+	excludesFile = ~/.gitignore
+	pager = delta
+	compression = 0
+[delta]
+	features = catppuccin-mocha
+[gpg]
+	program = gpg
+[include]
+	path = ~/.config/delta/catppuccin.gitconfig
+[pull]
+	rebase = true
+[submodule]
+	recurse = true
+[user]
+	name = pavelbezpravel
+	email = p.talashchenko@gmail.com
+	signingkey = D5F77C0D20A4F697!
