@@ -13,6 +13,7 @@ antigen bundle docker-compose
 antigen bundle encode64
 antigen bundle extract
 antigen bundle eza
+antigen bundle fzf
 antigen bundle git
 antigen bundle golang
 antigen bundle helm
