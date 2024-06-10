@@ -8,6 +8,7 @@ gen-completions() {
     wget -O "$HOME"/.zsh-completions/_eza https://raw.githubusercontent.com/eza-community/eza/main/completions/zsh/_eza
     rg --generate complete-zsh > "$HOME"/.zsh-completions/_rg
     rustup completions zsh > "$HOME"/.zsh-completions/_rustup
+    starship completions zsh > "$HOME"/.zsh-completions/_starship
     kubectl completion zsh > "$HOME"/.zsh-completions/_kubectl
     helm completion zsh > "$HOME"/.zsh-completions/_helm
     pip3 completion --zsh > "$HOME"/.zsh-completions/_pip3
