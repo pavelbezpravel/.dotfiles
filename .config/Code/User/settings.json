@@ -32,6 +32,7 @@
     "makefile.configureOnEdit": false,
     "makefile.configureOnOpen": false,
     "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "redhat.telemetry.enabled": false,
     "remote.downloadExtensionsLocally": true,
     "remote.SSH.configFile": "~/.ssh/config",
     "remote.tunnels.access.preventSleep": true,
