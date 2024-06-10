@@ -1,3 +1,2 @@
 alias ll="ls -lAh"
 alias la="eza -lXAgh"
-alias z="zoxide"
