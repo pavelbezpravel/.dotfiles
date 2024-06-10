@@ -1,6 +1,10 @@
+theme = "catppuccin_mocha"
+
 [editor]
 line-number = "relative"
 mouse = false
+cursorline = true
+color-modes = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -9,6 +13,9 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[editor.indent-guides]
+render = true
 
 [editor.whitespace]
 render = "all"
