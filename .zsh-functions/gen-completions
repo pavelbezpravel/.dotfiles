@@ -12,4 +12,5 @@ gen-completions() {
     kubectl completion zsh > "$HOME"/.zsh-completions/_kubectl
     helm completion zsh > "$HOME"/.zsh-completions/_helm
     pip3 completion --zsh > "$HOME"/.zsh-completions/_pip3
+    zoxide init --cmd cd zsh > "$HOME"/.zsh-completions/_zoxide
 }
