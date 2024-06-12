@@ -12,7 +12,7 @@
 [include]
 	path = ~/.config/delta/catppuccin.gitconfig
 [pull]
-	rebase = true
+	rebase = false
 [submodule]
 	recurse = true
 [user]
