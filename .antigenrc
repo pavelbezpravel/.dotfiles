@@ -29,6 +29,7 @@ antigen bundle sudo
 antigen bundle starship
 antigen bundle systemd
 antigen bundle tmux
+antigen bundle code-stats-zsh
 antigen bundle MichaelAquilina/zsh-you-should-use
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
