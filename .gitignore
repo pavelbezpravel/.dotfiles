@@ -1,9 +1,1 @@
-.dotfiles/
-
-# global .gitignore
-
-.idea/
-
-build-*
-cmake-build-*
-cmake_build-*
+.env
