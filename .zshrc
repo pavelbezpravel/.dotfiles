@@ -1,4 +1,5 @@
 source "$HOME"/antigen/antigen.zsh
+source "$HOME"/.env
 
 antigen init "$HOME"/.antigenrc
 source "$HOME"/.aliases
