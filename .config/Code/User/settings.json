@@ -50,4 +50,6 @@
     "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "catppuccin-mocha",
     "workbench.settings.editor": "json",
+    "codestats.apikey": "${env:CODESTATS_API_KEY}",
+    "codestats.username": "${env:CODESTATS_USERNAME}",
 }
