@@ -22,3 +22,7 @@ fpath=(
 
 autoload "$HOME"/.zsh-functions/*
 autoload "$HOME"/.zsh-completions/*
+
+autoload -Uz compinit
+compinit
+eval "$(zoxide init --cmd cd zsh)"
