@@ -7,10 +7,19 @@
 	compression = 0
 [delta]
 	features = catppuccin-mocha
-[gpg]
-	program = gpg
+	navigate = true
+[diff]
+	colorMoved = default
 [include]
 	path = ~/.config/delta/catppuccin.gitconfig
+[init]
+	defaultBranch = main
+[interactive]
+	diffFilter = delta --color-only
+[gpg]
+	program = gpg
+[merge]
+	conflictstyle = diff3
 [pull]
 	rebase = false
 [submodule]
