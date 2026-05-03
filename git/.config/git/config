@@ -1,10 +1,8 @@
-[commit]
-	gpgsign = true
 [core]
 	editor = hx
-	excludesFile = ~/.gitignore
 	pager = delta
 	compression = 0
+	symlinks = true
 [delta]
 	features = catppuccin-mocha
 	navigate = true
@@ -16,15 +14,12 @@
 	defaultBranch = main
 [interactive]
 	diffFilter = delta --color-only
-[gpg]
-	program = gpg
 [merge]
 	conflictstyle = diff3
 [pull]
-	rebase = false
+	rebase = true
 [submodule]
 	recurse = true
 [user]
 	name = pavelbezpravel
 	email = p.talashchenko@gmail.com
-	signingkey = D5F77C0D20A4F697!
