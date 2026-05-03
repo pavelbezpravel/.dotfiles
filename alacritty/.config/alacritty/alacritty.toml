@@ -1,8 +1,3 @@
-live_config_reload = true
-
-import = [
-    "~/.config/alacritty/catppuccin-mocha.toml"
-]
 
 [env]
 LANG = "en_US.UTF-8"
@@ -11,9 +6,7 @@ TERM = "xterm-256color"
 
 [window]
 decorations = "None"
-dynamic_title = true
 startup_mode = "Maximized"
-title = "Alacritty"
 
 [font.normal]
 family = "JetBrainsMono Nerd Font"
@@ -30,24 +23,22 @@ style = "Italic"
 [font]
 size = 13.0
 
-[font.offset]
-x = 0
-y = 0
-
-[font.glyph_offset]
-x = 0
-y = 0
-
 [cursor.style]
 blinking = "Always"
 shape = "Beam"
 
+[general]
+live_config_reload = true
+
+import = [
+    "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[terminal]
+
 [cursor]
 vi_mode_style = "Beam"
 
-[shell]
+[terminal.shell]
 args = ["--login"]
 program = "/usr/bin/zsh"
-
-[hints]
-alphabet = "jfkdls;ahgurieowpq"
