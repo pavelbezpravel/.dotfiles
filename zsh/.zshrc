@@ -1,28 +1,32 @@
-source "$HOME"/antigen/antigen.zsh
-source "$HOME"/.env
-
-antigen init "$HOME"/.antigenrc
-source "$HOME"/.aliases
-
-path=(
-    /usr/local/go/bin
-    ~/go/bin
-    ~/.local/bin
-    ~/.local/share/JetBrains/Toolbox/scripts
-    $path
-)
-export PATH
 export EDITOR="hx"
 
-fpath=(
-    "$HOME/.zsh-functions"
-    "$HOME/.zsh-completions"
-    $fpath
+plugins=(
+  copybuffer
+  copyfile
+  copypath
+  dnf
+  docker
+  git
+  httpie
+  pass
+  sudo
+  tmux
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
-autoload "$HOME"/.zsh-functions/*
-autoload "$HOME"/.zsh-completions/*
+source $HOME/.oh-my-zsh/oh-my-zsh.sh
+source $HOME/.zsh/aliases.zsh
+
+fpath=(
+  "$HOME/.zsh/completions"
+  $fpath
+)
 
 autoload -Uz compinit
-compinit
+compinit -d $ZSH_COMPDUMP
+
 eval "$(zoxide init --cmd cd zsh)"
+eval "$(starship init zsh)"
+
+source <(fzf --zsh)
