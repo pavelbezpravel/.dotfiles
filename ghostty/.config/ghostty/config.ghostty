@@ -1,0 +1,6 @@
+theme = Catppuccin Mocha
+font-size = 13
+font-family = "JetBrainsMono Nerd Font"
+font-feature = liga
+maximize
+window-decoration = none
