@@ -1,4 +1,5 @@
 {
+    "catppuccin.accentColor": "mauve",
     "chat.agent.enabled": false,
     "diffEditor.codeLens": true,
     "diffEditor.diffAlgorithm": "advanced",
@@ -16,12 +17,16 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "git.mergeEditor": true,
+    "gopls": {
+        "ui.semanticTokens": true,
+    },
     "merge-conflict.autoNavigateNextConflict.enabled": true,
     "terminal.external.linuxExec": "alacritty",
     "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
     "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.minimumContrastRatio": 1,
     "terminal.integrated.profiles.linux": {
         "bash": {
             "path": "bash",
@@ -31,6 +36,7 @@
             "path": "zsh"
         },
     },
+    "window.titleBarStyle": "custom",
     "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "catppuccin-mocha",
     "workbench.preferredHighContrastColorTheme": "Catppuccin Mocha",
@@ -42,4 +48,14 @@
     "workbench.settings.alwaysShowAdvancedSettings": true,
     "workbench.settings.showAISearchToggle": false,
     "security.workspace.trust.untrustedFiles": "open",
+    "json.schemaDownload.trustedDomains": {
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://json-schema.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://raw.githubusercontent.com": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://schemastore.azurewebsites.net/": true,
+        "https://www.schemastore.org/": true
+    },
 }
