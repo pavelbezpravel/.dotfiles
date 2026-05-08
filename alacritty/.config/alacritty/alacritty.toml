@@ -21,7 +21,7 @@ family = "JetBrainsMono Nerd Font"
 style = "Italic"
 
 [font]
-size = 13.0
+size = 14.0
 
 [cursor.style]
 blinking = "Always"
