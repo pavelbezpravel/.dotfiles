@@ -1,0 +1,8 @@
+syntax on
+
+set termguicolors
+
+set relativenumber
+set nu
+
+filetype plugin indent on
