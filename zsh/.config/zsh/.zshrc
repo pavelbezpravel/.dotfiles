@@ -3,9 +3,6 @@ source $ZDOTDIR/path.zsh
 source $ZDOTDIR/aliases.zsh
 source $ZDOTDIR/plugins.zsh
 source $ZDOTDIR/completion.zsh
-source $ZDOTDIR/fzf.zsh
+source $ZDOTDIR/tools.zsh
 
-
-
-eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
