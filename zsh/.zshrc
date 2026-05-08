@@ -17,6 +17,7 @@ plugins=(
 
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
 source $HOME/.zsh/aliases.zsh
+source $HOME/.zsh/fzf.zsh
 
 fpath=(
   "$HOME/.zsh/completions"
@@ -28,5 +29,3 @@ compinit -d $ZSH_COMPDUMP
 
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
-
-source <(fzf --zsh)
