@@ -2,5 +2,6 @@ theme = Catppuccin Mocha
 font-size = 13
 font-family = "JetBrainsMono Nerd Font"
 font-feature = liga
+font-feature = calt
 maximize
 window-decoration = none
