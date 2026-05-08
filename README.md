@@ -10,9 +10,3 @@ Repo contains my personal dotfiles from `"$HOME"` directory.
 - curl
 - wget
 - stow
-
-## Basic Installation
-
-```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/pavelbezpravel/.dotfiles/main/.config/setup/install.sh)"
-```
