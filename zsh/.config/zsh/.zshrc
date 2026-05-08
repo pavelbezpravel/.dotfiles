@@ -1,4 +1,5 @@
 source $ZDOTDIR/env.zsh
+source $ZDOTDIR/path.zsh
 
 plugins=(
   copybuffer
