@@ -1,23 +1,8 @@
 source $ZDOTDIR/env.zsh
 source $ZDOTDIR/path.zsh
-
-plugins=(
-  copybuffer
-  copyfile
-  copypath
-  dnf
-  docker
-  git
-  httpie
-  pass
-  sudo
-  tmux
-  zsh-autosuggestions
-  zsh-syntax-highlighting
-)
-
-source $HOME/.oh-my-zsh/oh-my-zsh.sh
 source $ZDOTDIR/aliases.zsh
+source $ZDOTDIR/plugins.zsh
+
 source $ZDOTDIR/fzf.zsh
 
 fpath=(
