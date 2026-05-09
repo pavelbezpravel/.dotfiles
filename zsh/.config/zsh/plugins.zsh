@@ -12,4 +12,4 @@ plugins=(
   zsh-syntax-highlighting
 )
 
-source $HOME/.oh-my-zsh/oh-my-zsh.sh
+source $HOME/.local/share/oh-my-zsh/oh-my-zsh.sh

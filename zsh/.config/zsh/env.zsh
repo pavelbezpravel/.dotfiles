@@ -1,6 +1,12 @@
 export EDITOR="hx"
 export VISUAL="hx"
 
+export ZSH_CACHE_DIR="$HOME/.cache/zsh"
+export ZSH_STATE_DIR="$HOME/.local/state/zsh"
+export ZSH_COMPDUMP="$ZSH_CACHE_DIR/zcompdump"
+
+export HISTFILE="$ZSH_STATE_DIR/history"
+
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
