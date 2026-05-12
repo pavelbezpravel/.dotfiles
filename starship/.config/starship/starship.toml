@@ -6,6 +6,9 @@ palette = "catppuccin_mocha"
 
 right_format = "$cmd_duration$time"
 
+[battery]
+disabled = true
+
 [cmd_duration]
 min_time = 0
 show_milliseconds = true
@@ -38,6 +41,9 @@ style = "bold mauve"
 
 [git_metrics]
 disabled = false
+
+[netns]
+disabled = true
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"

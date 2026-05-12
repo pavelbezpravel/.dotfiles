@@ -19,3 +19,5 @@ export FZF_DEFAULT_OPTS=" \
 --color=border:#6C7086,label:#CDD6F4"
 
 export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/ripgreprc"
+
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
