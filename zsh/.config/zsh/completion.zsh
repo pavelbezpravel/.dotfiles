@@ -4,6 +4,12 @@ if [[ ! -f "$ZSH_CACHE_DIR/completions/_rg" ]] && command -v rg >/dev/null; then
   rm "$ZSH_COMPDUMP"
 fi
 
+if [[ ! -f "$ZSH_CACHE_DIR/completions/_ykman" ]] && command -v ykman >/dev/null; then
+  mkdir -p "$ZSH_CACHE_DIR/completions"
+  _YKMAN_COMPLETE=zsh_source ykman > "$ZSH_CACHE_DIR/completions/_ykman"
+  rm "$ZSH_COMPDUMP"
+fi
+
 fpath=(
   "$ZSH_CACHE_DIR/completions"
   $fpath
