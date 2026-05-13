@@ -1,8 +1,13 @@
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_STATE_HOME="$HOME/.local/state"
+
 export EDITOR="hx"
 export VISUAL="hx"
 
-export ZSH_CACHE_DIR="$HOME/.cache/zsh"
-export ZSH_STATE_DIR="$HOME/.local/state/zsh"
+export ZSH_CACHE_DIR="$XDG_CACHE_HOME/zsh"
+export ZSH_STATE_DIR="$XDG_STATE_HOME/zsh"
 export ZSH_COMPDUMP="$ZSH_CACHE_DIR/zcompdump"
 
 export HISTFILE="$ZSH_STATE_DIR/history"
@@ -18,6 +23,6 @@ export FZF_DEFAULT_OPTS=" \
 --color=selected-bg:#45475A \
 --color=border:#6C7086,label:#CDD6F4"
 
-export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/ripgreprc"
+export RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/ripgrep/ripgreprc"
 
-export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
+export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/starship.toml"
