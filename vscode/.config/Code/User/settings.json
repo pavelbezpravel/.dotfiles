@@ -13,6 +13,8 @@
     "editor.fontSize": 14,
     "editor.renderWhitespace": "all",
     "editor.semanticHighlighting.enabled": true,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
     "files.autoSave": "afterDelay",
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
