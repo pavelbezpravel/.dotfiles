@@ -3,6 +3,8 @@
 	pager = delta
 	compression = 0
 	symlinks = true
+[branch]
+	sort = -committerdate
 [delta]
 	features = catppuccin-mocha
 	hyperlinks = true
@@ -10,7 +12,8 @@
 	line-numbers = true
 	side-by-side = true
 [diff]
-	colorMoved = default
+	algorithm = histogram
+	colorMoved = plain
 [include]
 	path = ~/.config/delta/catppuccin.gitconfig
 [init]
