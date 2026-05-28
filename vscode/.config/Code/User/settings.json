@@ -15,6 +15,7 @@
     "editor.semanticHighlighting.enabled": true,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.unicodeHighlight.ambiguousCharacters": false,
+    "extensions.autoUpdate": false,
     "files.autoSave": "afterDelay",
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
@@ -22,7 +23,20 @@
     "gopls": {
         "ui.semanticTokens": true,
     },
+    "json.schemaDownload.trustedDomains": {
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://json-schema.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://raw.githubusercontent.com": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://schemastore.azurewebsites.net/": true,
+        "https://www.schemastore.org/": true
+    },
     "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "security.workspace.trust.enabled": true,
+    "security.workspace.trust.untrustedFiles": "prompt",
+    "security.workspace.trust.startupPrompt": "always",
     "terminal.external.linuxExec": "alacritty",
     "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
     "terminal.integrated.fontSize": 14,
@@ -46,18 +60,7 @@
     "workbench.preferredHighContrastLightColorTheme": "Catppuccin Mocha",
     "workbench.preferredLightColorTheme": "Catppuccin Mocha",
     "workbench.settings.editor": "ui",
-    "workbench.startupEditor": "terminal",
+    "workbench.startupEditor": "none",
     "workbench.settings.alwaysShowAdvancedSettings": true,
     "workbench.settings.showAISearchToggle": false,
-    "security.workspace.trust.untrustedFiles": "open",
-    "json.schemaDownload.trustedDomains": {
-        "https://developer.microsoft.com/json-schemas/": true,
-        "https://json-schema.org/": true,
-        "https://json.schemastore.org/": true,
-        "https://raw.githubusercontent.com": true,
-        "https://raw.githubusercontent.com/devcontainers/spec/": true,
-        "https://raw.githubusercontent.com/microsoft/vscode/": true,
-        "https://schemastore.azurewebsites.net/": true,
-        "https://www.schemastore.org/": true
-    },
 }
