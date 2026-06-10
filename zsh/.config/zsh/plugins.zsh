@@ -5,6 +5,7 @@ plugins=(
   dnf
   docker
   git
+  golang
   httpie
   pass
   sudo
