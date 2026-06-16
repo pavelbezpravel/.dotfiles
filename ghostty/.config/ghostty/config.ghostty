@@ -4,4 +4,6 @@ font-family = "JetBrainsMono Nerd Font"
 font-feature = liga
 font-feature = calt
 maximize
+mouse-scroll-multiplier = 0.95
+shell-integration-features = ssh-terminfo,ssh-env
 window-decoration = none
