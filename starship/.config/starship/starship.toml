@@ -4,8 +4,6 @@ add_newline = true
 
 palette = "catppuccin_mocha"
 
-right_format = "$cmd_duration$time"
-
 [battery]
 disabled = true
 
