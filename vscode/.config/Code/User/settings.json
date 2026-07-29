@@ -15,7 +15,7 @@
     "editor.semanticHighlighting.enabled": true,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.unicodeHighlight.ambiguousCharacters": false,
-    "extensions.autoUpdate": false,
+    "extensions.autoUpdate": "off",
     "files.autoSave": "afterDelay",
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
