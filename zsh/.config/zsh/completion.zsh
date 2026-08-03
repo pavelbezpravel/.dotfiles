@@ -18,5 +18,11 @@ fpath=(
 autoload -Uz compinit
 compinit -d "$ZSH_COMPDUMP" -C
 
+_comp_options+=(globdots)
+
 zstyle ':completion:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*' file-sort name
+zstyle ':completion:*' use-cache on
+zstyle ':completion:*' cache-path "$ZSH_CACHE_DIR"
