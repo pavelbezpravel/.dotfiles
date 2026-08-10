@@ -23,6 +23,9 @@ read_only = " ro"
 truncation_length = 4
 style = "bold lavender"
 
+[docker_context]
+symbol = "docker "
+
 [git_commit]
 tag_symbol = " tag "
 
@@ -40,8 +43,20 @@ style = "bold mauve"
 [git_metrics]
 disabled = false
 
+[golang]
+symbol = "go "
+
+[kubernetes]
+symbol = "k8s "
+
 [netns]
 disabled = true
+
+[package]
+symbol = "pkg "
+
+[python]
+symbol = "py "
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"
